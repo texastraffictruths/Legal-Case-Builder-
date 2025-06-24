@@ -1,5 +1,7 @@
 import streamlit as st
 
+os.makedirs("uploads", exist_ok=True)
+
 st.set_page_config(page_title="Pro Se Legal Assistant", layout="wide")
 st.title("⚖️ Pro Se Legal Assistant (Texas Federal Court)")
 
@@ -42,4 +44,3 @@ if uploaded_files:
         # Optional: Save file to local app session folder
         with open(os.path.join("uploads", file.name), "wb") as f:
             f.write(file.getbuffer())
-os.makedirs("uploads", exist_ok=True)
