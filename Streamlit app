@@ -1,0 +1,12 @@
+import streamlit as st
+
+st.title("Legal Case Builder - Streamlit App")
+
+# Example: Import your code, or copy notebook logic here
+# from my_app_logic import main_logic
+# result = main_logic()
+# st.write(result)
+
+st.write("Welcome! This Streamlit app connects your Colab notebook logic.")
+
+# If you want to display data, visuals, or forms, add Streamlit widgets here.
