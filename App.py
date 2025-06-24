@@ -1,5 +1,3 @@
-os.makedirs("uploads", exist_ok=True)
-
 import streamlit as st
 
 st.set_page_config(page_title="Pro Se Legal Assistant", layout="wide")
