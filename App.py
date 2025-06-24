@@ -42,3 +42,4 @@ if uploaded_files:
         # Optional: Save file to local app session folder
         with open(os.path.join("uploads", file.name), "wb") as f:
             f.write(file.getbuffer())
+os.makedirs("uploads", exist_ok=True)
