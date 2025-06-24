@@ -43,7 +43,3 @@ if uploaded_files:
             st.text_area(f"📝 Preview: {file.name}", text, height=150)
         elif file.type == "application/pdf":
             st.info("📕 PDF uploaded (preview not shown here).")
-
-        # Optional: Save file to local app session folder
-        with open(os.path.join("uploads", file.name), "wb") as f:
-            f.write(file.getbuffer())
