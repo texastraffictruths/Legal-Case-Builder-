@@ -2,9 +2,6 @@ import streamlit as st
 import os
 import io
 
-# Create folder for uploads
-os.makedirs("uploads", exist_ok=True)
-
 st.set_page_config(page_title="Pro Se Legal Assistant", layout="wide")
 st.title("⚖️ Pro Se Legal Assistant (Texas Federal Court)")
 
